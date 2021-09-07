@@ -25,16 +25,22 @@ thead th {
   color: white;
   font-weight: bold;
 }
+thead th p:first-child{
+  margin-bottom: 30px;
+}
 thead th p:nth-child(2){
   margin-top: 30px;
   margin-bottom: 10px;
-  font-style: 2em;
+  font-size: 2em;
   font-weight: bolder;
 }
 tfoot button{
   padding: 5px 10px;
   font-style: 0.7em;
   text-transform: uppercase;
+}
+tbody>tr>td:first-child{
+  width: 25%;
 }
 thead th:not(:first-child){
   width: 15%;
